@@ -54,7 +54,8 @@ header
 }
 header .mw-8
 {
-    min-width: 800px;
+	min-width: 420px;
+    max-width: 2000px;
 }
 header .nav-left
 {
@@ -88,7 +89,7 @@ header .nav
 {
     margin: 0;
     padding: 0;
-
+	position:relative;
     list-style: none;
 }
 header .nav > li
@@ -771,6 +772,7 @@ header .err-top{
     right: 0;
     width: 518px;
 }
+
 header .err-top.succ,header .err-top.fail{
     display: block;
 }
